@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T4J7C+ShYxlFWO7ucusv5V6fMHLXbA1JvTrlCTURDoHuGLsSsyWdQkB4rBSs59mNjqprHKzIq05G9a+1OH5lZw==",
+  "dgSpecHash": "x/cWoa4AjrBBtM/WRKu8fKcB9fA01TnBg51LFQrtFF64lznLJNlgtiwt7MWRsBW33Enu3t96+/3DO76nTtwGnQ==",
   "success": true,
-  "projectFilePath": "/Users/biniyamdejene/dev/dotnet/HungerGame/Application/Application.csproj",
+  "projectFilePath": "/Users/biniyamdejene/dev/dotnet/HungerGame/application/Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

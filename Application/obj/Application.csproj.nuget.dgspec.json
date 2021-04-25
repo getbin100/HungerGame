@@ -1,17 +1,76 @@
 {
   "format": 1,
   "restore": {
-    "/Users/biniyamdejene/dev/dotnet/HungerGame/Application/Application.csproj": {}
+    "/Users/biniyamdejene/dev/dotnet/HungerGame/application/Application.csproj": {}
   },
   "projects": {
-    "/Users/biniyamdejene/dev/dotnet/HungerGame/Application/Application.csproj": {
+    "/Users/biniyamdejene/dev/dotnet/HungerGame/application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/biniyamdejene/dev/dotnet/HungerGame/Application/Application.csproj",
+        "projectUniqueName": "/Users/biniyamdejene/dev/dotnet/HungerGame/application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/Application/Application.csproj",
+        "projectPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/application/Application.csproj",
         "packagesPath": "/Users/biniyamdejene/.nuget/packages/",
-        "outputPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/Application/obj/",
+        "outputPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/biniyamdejene/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/biniyamdejene/dev/dotnet/HungerGame/domain/Domain.csproj": {
+                "projectPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/domain/Domain.csproj"
+              },
+              "/Users/biniyamdejene/dev/dotnet/HungerGame/persistence/Persistence.csproj": {
+                "projectPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/persistence/Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/biniyamdejene/dev/dotnet/HungerGame/domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/biniyamdejene/dev/dotnet/HungerGame/domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/domain/Domain.csproj",
+        "packagesPath": "/Users/biniyamdejene/.nuget/packages/",
+        "outputPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/biniyamdejene/.nuget/NuGet/NuGet.Config"
@@ -26,6 +85,62 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/biniyamdejene/dev/dotnet/HungerGame/persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/biniyamdejene/dev/dotnet/HungerGame/persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/persistence/Persistence.csproj",
+        "packagesPath": "/Users/biniyamdejene/.nuget/packages/",
+        "outputPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/biniyamdejene/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/biniyamdejene/dev/dotnet/HungerGame/domain/Domain.csproj": {
+                "projectPath": "/Users/biniyamdejene/dev/dotnet/HungerGame/domain/Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\domain\Domain.csproj" />
+    <ProjectReference Include="..\persistence\Persistence.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

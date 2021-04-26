@@ -11,8 +11,8 @@
 *.sln.docstates
 
 # **/appsettings.json
-**/appsettings.json
-**/hungergame.db
+appsettings.json
+hungergame.db
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

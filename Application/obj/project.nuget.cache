@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GPUb8nAF34U94v/Mcm74QC7SBR32wiPHHwQeWqv/Xfyg5AW7lakYp4Od0f/Ff8rBKZXQGM+3Ktg7AvFt8OkkFA==",
+  "dgSpecHash": "R90ZxXdTqs2H0nLAkiEpJyWvTmI9FrHh+fiFXzMeAOBRiuHLrJLPEme69spWHM/azBzx6l83peWO32wAH4EXWg==",
   "success": true,
   "projectFilePath": "/Users/biniyamdejene/dev/dotnet/HungerGame/application/Application.csproj",
   "expectedPackageFiles": [
+    "/Users/biniyamdejene/.nuget/packages/mediatr/9.0.0/mediatr.9.0.0.nupkg.sha512",
+    "/Users/biniyamdejene/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/9.0.0/mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "/Users/biniyamdejene/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/biniyamdejene/.nuget/packages/microsoft.data.sqlclient/2.0.1/microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "/Users/biniyamdejene/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.0.1/microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

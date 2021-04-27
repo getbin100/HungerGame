@@ -20,11 +20,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <ul>
           {
-            activities.map((activity: any) => {
+            activities.map((activity: any) => (
               <li key={activity.id}>
                 {activity.title}
               </li>
-            })
+            ))
           }
         </ul>
       </header>

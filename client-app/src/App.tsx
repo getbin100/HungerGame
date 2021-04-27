@@ -16,7 +16,7 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div>
       <Header as='h2' icon='users' content='HungerGame' />
       <List>
         {
